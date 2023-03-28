@@ -11,8 +11,8 @@ body {
     box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.2);
     border-radius: 1.5em;
     overflow: hidden;
-    max-width: 80vh;
-    height: 50vh;
+    width: 80vh;
+    height: 55vh;
     display: flex;
   }
 
@@ -21,7 +21,7 @@ body {
     text-align: center;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: hsl(241, 100%, 89%);
-    width: 70vh;
+    width: 40vh;
   }
 
   .score {

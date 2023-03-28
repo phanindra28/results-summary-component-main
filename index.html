@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk" rel="stylesheet">
   <link rel="stylesheet" href="./styles/left.css">
+  <link rel="stylesheet" href="./styles/right.css">
 
   <title>Frontend Mentor | Results summary component</title>
 
@@ -38,33 +39,51 @@
       </div>
 
       <h1>Great</h1>
-      <p class="text">
+      <p class="text" style="padding: 0 2.5em 0 2.5em;">
         You scored higher than 65% of the people who have taken these tests.
       </p>
     </div>
     <div class="details">
-      Summary
+      <h2>Summary</h2>
 
-      Reaction
-      80 / 100
+      <div class="small-card light-red">
+        <img src="./assets/images/icon-reaction.svg">
+        <p class="title">Reaction</p>
+        <div class="score-summary"><b>80</b>
+          <p class="of"> / 100</p>
+        </div>
+      </div>
+      <div class="small-card orange-yellow">
+        <img src="./assets/images/icon-memory.svg">
+        <p class="title">Memory</p>
+        <div class="score-summary"><b>92</b>
+          <p class="of"> / 100</p>
+        </div>
+      </div>
 
-      Memory
-      92 / 100
+      <div class="small-card green-teal">
+        <img src="./assets/images/icon-verbal.svg">
+        <p class="title">Verbal</p>
+        <div class="score-summary"><b>61</b>
+          <p class="of"> / 100</p>
+        </div>
+      </div>
 
-      Verbal
-      61 / 100
-
-      Visual
-      72 / 100
-
-      Continue
+      <div class="small-card cobalt-blue">
+        <img src="./assets/images/icon-visual.svg">
+        <p class="title">Visual</p>
+        <div class="score-summary"><b>92</b>
+          <p class="of"> / 100</p>
+        </div>
+      </div>
+      <button>Continue</button>
     </div>
   </div>
 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/phanindra28">Phanindra Kumar</a>.
   </div>
 </body>
 
