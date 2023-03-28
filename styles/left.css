@@ -8,12 +8,12 @@ body {
 
   .box {
     /* border-style: solid; */
+    display: flex;
     box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.2);
     border-radius: 1.5em;
     overflow: hidden;
     width: 80vh;
     height: 55vh;
-    display: flex;
   }
 
   .overall {
